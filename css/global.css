@@ -1,0 +1,61 @@
+* { 
+    box-sizing: border-box;
+    margin:0;
+   
+}
+
+
+.button {
+    color: var(--primary-text-color);
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: 50px;
+}
+
+.text{ 
+    font-family: 'poppins-bold', sans-serif !important;
+}
+
+.button-primary {
+    background-color: var(--primary-text-color);
+    border-color: var(--primary-text-color);
+color: var(--secondary-text-color);
+}
+
+
+
+.button-primary-outline {
+    border-color: var(--primary-text-color);
+
+}
+
+.input-login {
+    border: none;
+    background: transparent;
+border-bottom: 1px  solid white;
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+.input-login::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+#slider h1{
+    color: var(--primary-text-color);
+}
+
+.esqueceu-senha {
+    color: var(--primary-text-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.white {
+    color: #faf6f5;
+}
